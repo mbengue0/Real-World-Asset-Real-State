@@ -1,7 +1,6 @@
 # Real World Asset Tokenization — Real Estate
 
-> **DAUST · Spring 2026 · Blockchain & Web3 Introduction — Final Project**
-> Submission: 2026-05-15 · Oral presentation: 2026-05-18
+> **Blockchain & Web3 Introduction — Final Project**
 
 A decentralized application for **fractional ownership of real estate**, deployed on the Ethereum **Sepolia testnet**. Each property is represented by its own dedicated ERC-20 token; holding *N* tokens equals *N / totalSupply* ownership of that property. Purchases settle in a custom platform ERC-20 (`PaymentToken`).
 
@@ -167,22 +166,6 @@ After deployment, copy the addresses from `contracts/deployments.json` into:
 - `frontend/.env` (`VITE_PAYMENT_TOKEN_ADDRESS`, `VITE_PROPERTY_FACTORY_ADDRESS`, `VITE_CHAIN_ID=11155111`)
 - This `README.md` (the table at the top)
 - Vercel project env vars (Settings → Environment Variables)
-
----
-
-## Deploy frontend to Vercel
-
-1. Push the repo to GitHub
-2. Connect the GitHub repo in the Vercel dashboard
-3. Vercel auto-detects `vercel.json` — root directory `.`, build command builds the frontend, output `frontend/dist`
-4. Set environment variables in the Vercel dashboard (mirror `frontend/.env`):
-   - `VITE_CHAIN_ID=11155111`
-   - `VITE_SEPOLIA_RPC_URL=<your Alchemy URL>`
-   - `VITE_PAYMENT_TOKEN_ADDRESS=<from Sepolia deploy>`
-   - `VITE_PROPERTY_FACTORY_ADDRESS=<from Sepolia deploy>`
-   - `VITE_PINATA_JWT=<from Pinata>` (only needed for admin upload flow)
-   - `VITE_PINATA_GATEWAY=https://gateway.pinata.cloud/ipfs/`
-5. Deploy. The dApp URL is `https://real-world-asset-real-state.vercel.app/`.
 
 ---
 
