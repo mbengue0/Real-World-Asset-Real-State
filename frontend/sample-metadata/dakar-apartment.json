@@ -1,0 +1,13 @@
+{
+  "name": "Plateau Heights — 2BR Apartment",
+  "description": "Newly renovated two-bedroom apartment in central Dakar with views over the Atlantic. Walking distance to the Place de l'Independance, the financial district, and Soumbedioune fish market. Tokenized into 1,000 shares.",
+  "location": {
+    "address": "Avenue Albert Sarraut",
+    "city": "Dakar",
+    "country": "Senegal"
+  },
+  "imageURI": "ipfs://REPLACE_WITH_IMAGE_CID",
+  "yearBuilt": 2019,
+  "type": "residential",
+  "areaSqM": 92
+}

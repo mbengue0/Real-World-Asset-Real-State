@@ -1,0 +1,13 @@
+{
+  "name": "Faidherbe Villa — Colonial Heritage",
+  "description": "Restored colonial-era villa on the island of Saint-Louis, a UNESCO World Heritage site. Five bedrooms, internal courtyard, and rooftop terrace facing the Senegal River. Tokenized into 500 shares.",
+  "location": {
+    "address": "Rue Faidherbe",
+    "city": "Saint-Louis",
+    "country": "Senegal"
+  },
+  "imageURI": "ipfs://REPLACE_WITH_IMAGE_CID",
+  "yearBuilt": 1898,
+  "type": "residential",
+  "areaSqM": 340
+}

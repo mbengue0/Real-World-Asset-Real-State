@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment / secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.key
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/typechain-types/
+contracts/coverage/
+contracts/coverage.json
+contracts/deployments.json
+
+# Vite / frontend build output
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Course material — not committed to public repo (copyrighted DAUST content)
+blockchain_lectures/
+
+# Local-only protocol file
+Prompt.md
+
+graphify-out
+graphify-out/manifest.json    # mtime-based, breaks after git clone
+graphify-out/cost.json        # local only
+# graphify-out/cache/         # optional: commit for speed, skip to keep repo small
+SlIDES.node_modules
+CLAUDE.md
+.claude
+.agents
+.graphify_images.txt
+.graphify_non_code.txt
+.graphify_python
+.graphify_uncached.txt
+.graphifyignore
+SlIDES.md

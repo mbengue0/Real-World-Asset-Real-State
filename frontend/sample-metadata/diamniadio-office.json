@@ -1,0 +1,13 @@
+{
+  "name": "Diamniadio Tower — Floor 14",
+  "description": "Class-A commercial office floor in the new Diamniadio business district, 35 km east of Dakar. Adjacent to the international airport and the Dakar-Diamniadio highway. Tokenized into 10,000 shares for full-floor fractional ownership.",
+  "location": {
+    "address": "Boulevard Lat-Dior",
+    "city": "Diamniadio",
+    "country": "Senegal"
+  },
+  "imageURI": "ipfs://REPLACE_WITH_IMAGE_CID",
+  "yearBuilt": 2023,
+  "type": "commercial",
+  "areaSqM": 1100
+}

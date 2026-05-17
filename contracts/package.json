@@ -1,0 +1,33 @@
+{
+  "name": "rwa-realestate-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart contracts for RWA real-estate tokenization — DAUST Spring 2026 final project",
+  "scripts": {
+    "compile": "hardhat compile && npm run sync:abi",
+    "sync:abi": "ts-node scripts/sync-abi.ts",
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "node": "hardhat node",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "verify:sepolia": "hardhat run scripts/verify.ts --network sepolia",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "chai": "^4.3.0",
+    "dotenv": "^16.4.0",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.0",
+    "hardhat-gas-reporter": "^1.0.10",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
