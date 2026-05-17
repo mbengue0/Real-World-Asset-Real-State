@@ -6,7 +6,6 @@ A decentralized application for **fractional ownership of real estate**, deploye
 
 | Submission item | Link |
 |-----------------|------|
-| GitHub repository | *this repo* |
 | Live dApp | *https://real-world-asset-real-state.vercel.app/* |
 | `PaymentToken` on Sepolia Etherscan | *https://sepolia.etherscan.io/address/0x06b0e4928420401c08eABbc26D77239B89a4e2B2 * |
 | `PropertyFactory` on Sepolia Etherscan | *https://sepolia.etherscan.io/address/0x4251aD34bF6e7581279865EB96Fd8444fe532c3c * |
